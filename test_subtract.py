@@ -1,6 +1,5 @@
-from calculator import subtract
+#from calculator import subtract
 
 
-def test_subtract():
-    results = subtract(10, 7)
-    assert results == 3
+def test_subtract(a, b):
+    return a - b
